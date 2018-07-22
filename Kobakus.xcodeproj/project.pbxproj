@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B35C54672104F679001A7E48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35C54662104F679001A7E48 /* AppDelegate.swift */; };
+		B35C54692104F679001A7E48 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35C54682104F679001A7E48 /* ViewController.swift */; };
+		B35C546C2104F679001A7E48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B35C546A2104F679001A7E48 /* Main.storyboard */; };
+		B35C546E2104F679001A7E48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B35C546D2104F679001A7E48 /* Assets.xcassets */; };
+		B35C54712104F679001A7E48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B35C546F2104F679001A7E48 /* LaunchScreen.storyboard */; };
+		B35C547B2104F694001A7E48 /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35C54782104F694001A7E48 /* SkyFloatingLabelTextFieldWithIcon.swift */; };
+		B35C547C2104F694001A7E48 /* UITextField+fixCaretPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35C54792104F694001A7E48 /* UITextField+fixCaretPosition.swift */; };
+		B35C547D2104F694001A7E48 /* SkyFloatingLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35C547A2104F694001A7E48 /* SkyFloatingLabelTextField.swift */; };
+		EC57D55940C9435300497C55 /* Pods_Kobakus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B894C87692E0187E5210C9C8 /* Pods_Kobakus.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8D043D7AE8D377E9D04E85F5 /* Pods-Kobakus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kobakus.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Kobakus/Pods-Kobakus.debug.xcconfig"; sourceTree = "<group>"; };
+		B35C54632104F679001A7E48 /* Kobakus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kobakus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B35C54662104F679001A7E48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B35C54682104F679001A7E48 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B35C546B2104F679001A7E48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B35C546D2104F679001A7E48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B35C54702104F679001A7E48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B35C54722104F679001A7E48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B35C54782104F694001A7E48 /* SkyFloatingLabelTextFieldWithIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SkyFloatingLabelTextFieldWithIcon.swift; path = "../../../../Downloads/SkyFloatingLabelTextField-3.5.1/Sources/SkyFloatingLabelTextFieldWithIcon.swift"; sourceTree = "<group>"; };
+		B35C54792104F694001A7E48 /* UITextField+fixCaretPosition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UITextField+fixCaretPosition.swift"; path = "../../../../Downloads/SkyFloatingLabelTextField-3.5.1/Sources/UITextField+fixCaretPosition.swift"; sourceTree = "<group>"; };
+		B35C547A2104F694001A7E48 /* SkyFloatingLabelTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SkyFloatingLabelTextField.swift; path = "../../../../Downloads/SkyFloatingLabelTextField-3.5.1/Sources/SkyFloatingLabelTextField.swift"; sourceTree = "<group>"; };
+		B894C87692E0187E5210C9C8 /* Pods_Kobakus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kobakus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F98B6BA3189A6FA449FB9ADD /* Pods-Kobakus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kobakus.release.xcconfig"; path = "Pods/Target Support Files/Pods-Kobakus/Pods-Kobakus.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B35C54602104F679001A7E48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC57D55940C9435300497C55 /* Pods_Kobakus.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A8F54ABBA2E1EAC57D704EE8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B894C87692E0187E5210C9C8 /* Pods_Kobakus.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE3E5E697F65572621DE22A2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8D043D7AE8D377E9D04E85F5 /* Pods-Kobakus.debug.xcconfig */,
+				F98B6BA3189A6FA449FB9ADD /* Pods-Kobakus.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B35C545A2104F679001A7E48 = {
+			isa = PBXGroup;
+			children = (
+				B35C54652104F679001A7E48 /* Kobakus */,
+				B35C54642104F679001A7E48 /* Products */,
+				AE3E5E697F65572621DE22A2 /* Pods */,
+				A8F54ABBA2E1EAC57D704EE8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B35C54642104F679001A7E48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B35C54632104F679001A7E48 /* Kobakus.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B35C54652104F679001A7E48 /* Kobakus */ = {
+			isa = PBXGroup;
+			children = (
+				B35C547A2104F694001A7E48 /* SkyFloatingLabelTextField.swift */,
+				B35C54782104F694001A7E48 /* SkyFloatingLabelTextFieldWithIcon.swift */,
+				B35C54792104F694001A7E48 /* UITextField+fixCaretPosition.swift */,
+				B35C54662104F679001A7E48 /* AppDelegate.swift */,
+				B35C54682104F679001A7E48 /* ViewController.swift */,
+				B35C546A2104F679001A7E48 /* Main.storyboard */,
+				B35C546D2104F679001A7E48 /* Assets.xcassets */,
+				B35C546F2104F679001A7E48 /* LaunchScreen.storyboard */,
+				B35C54722104F679001A7E48 /* Info.plist */,
+			);
+			path = Kobakus;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B35C54622104F679001A7E48 /* Kobakus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B35C54752104F679001A7E48 /* Build configuration list for PBXNativeTarget "Kobakus" */;
+			buildPhases = (
+				FEB09CFE7E7C2C8BDB152FC0 /* [CP] Check Pods Manifest.lock */,
+				B35C545F2104F679001A7E48 /* Sources */,
+				B35C54602104F679001A7E48 /* Frameworks */,
+				B35C54612104F679001A7E48 /* Resources */,
+				4AB7D1E795E31F0178804DD6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kobakus;
+			productName = Kobakus;
+			productReference = B35C54632104F679001A7E48 /* Kobakus.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B35C545B2104F679001A7E48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Burak Kelleroğlu";
+				TargetAttributes = {
+					B35C54622104F679001A7E48 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = B35C545E2104F679001A7E48 /* Build configuration list for PBXProject "Kobakus" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B35C545A2104F679001A7E48;
+			productRefGroup = B35C54642104F679001A7E48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B35C54622104F679001A7E48 /* Kobakus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B35C54612104F679001A7E48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B35C54712104F679001A7E48 /* LaunchScreen.storyboard in Resources */,
+				B35C546E2104F679001A7E48 /* Assets.xcassets in Resources */,
+				B35C546C2104F679001A7E48 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4AB7D1E795E31F0178804DD6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Kobakus/Pods-Kobakus-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SkyFloatingLabelTextField.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kobakus/Pods-Kobakus-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FEB09CFE7E7C2C8BDB152FC0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Kobakus-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B35C545F2104F679001A7E48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B35C54692104F679001A7E48 /* ViewController.swift in Sources */,
+				B35C547B2104F694001A7E48 /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */,
+				B35C547C2104F694001A7E48 /* UITextField+fixCaretPosition.swift in Sources */,
+				B35C54672104F679001A7E48 /* AppDelegate.swift in Sources */,
+				B35C547D2104F694001A7E48 /* SkyFloatingLabelTextField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B35C546A2104F679001A7E48 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B35C546B2104F679001A7E48 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B35C546F2104F679001A7E48 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B35C54702104F679001A7E48 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B35C54732104F679001A7E48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B35C54742104F679001A7E48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B35C54762104F679001A7E48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D043D7AE8D377E9D04E85F5 /* Pods-Kobakus.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UMRUR4ZKT4;
+				INFOPLIST_FILE = Kobakus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bkelleroglu.Kobakus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B35C54772104F679001A7E48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F98B6BA3189A6FA449FB9ADD /* Pods-Kobakus.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UMRUR4ZKT4;
+				INFOPLIST_FILE = Kobakus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bkelleroglu.Kobakus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B35C545E2104F679001A7E48 /* Build configuration list for PBXProject "Kobakus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B35C54732104F679001A7E48 /* Debug */,
+				B35C54742104F679001A7E48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B35C54752104F679001A7E48 /* Build configuration list for PBXNativeTarget "Kobakus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B35C54762104F679001A7E48 /* Debug */,
+				B35C54772104F679001A7E48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B35C545B2104F679001A7E48 /* Project object */;
+}
